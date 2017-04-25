@@ -1,4 +1,7 @@
-# test coverage for  [eslint-plugin-node (v4.2.2)](https://github.com/mysticatea/eslint-plugin-node#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-eslint-plugin-node.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-eslint-plugin-node) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-eslint-plugin-node.svg)](https://travis-ci.org/npmtest/node-npmtest-eslint-plugin-node)
+# npmtest-eslint-plugin-node
+
+#### basic test coverage for  [eslint-plugin-node (v4.2.2)](https://github.com/mysticatea/eslint-plugin-node#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-eslint-plugin-node.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-eslint-plugin-node) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-eslint-plugin-node.svg)](https://travis-ci.org/npmtest/node-npmtest-eslint-plugin-node)
+
 #### Additional ESLint's rules for Node.js
 
 [![NPM](https://nodei.co/npm/eslint-plugin-node.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/eslint-plugin-node)
@@ -7,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-eslint-plugin-node/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-eslint-plugin-node/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-eslint-plugin-node/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-eslint-plugin-node/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-eslint-plugin-node/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-eslint-plugin-node/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-eslint-plugin-node/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-eslint-plugin-node/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-eslint-plugin-node/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-eslint-plugin-node/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-eslint-plugin-node/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-eslint-plugin-node/build/coverage.html/index.html)
 
@@ -116,7 +119,8 @@
         "test:_mocha": "_mocha tests/lib/**/*.js --reporter progress",
         "watch": "npm run test:_mocha -- --watch --growl"
     },
-    "version": "4.2.2"
+    "version": "4.2.2",
+    "bin": {}
 }
 ```
 
